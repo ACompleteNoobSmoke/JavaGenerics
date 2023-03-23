@@ -28,4 +28,8 @@ public class WildCard {
     static void printLowerBound(List<? super Integer> printThis){
         printThis.forEach(System.out::println);
     }
+
+    static <T extends Number> void test(T nums){
+
+    }
 }
